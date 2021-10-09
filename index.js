@@ -144,7 +144,8 @@ function unrender(container, options) {
 
   function createRenderer() {
     var renderer = new THREE.WebGLRenderer({
-      antialias: false
+      antialias: false,
+      powerPreference: "high-performance"
     });
 
     renderer.setClearColor(options.clearColor, 1);
