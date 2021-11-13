@@ -22,7 +22,7 @@ function unrender(container, options) {
         renderer: getRenderer,
         // todo: this should all be refactored into single particles class.
         particles: particles,
-        getParticleView: getParicleView,
+        getParticleView: getParticleView,
         hitTest: getHitTest,
         lines: drawLines,
         onFrame: onFrame,
@@ -78,7 +78,7 @@ function unrender(container, options) {
         }
     }
 
-    function getParicleView() {
+    function getParticleView() {
         return particleView;
     }
 

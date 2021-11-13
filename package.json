@@ -1,6 +1,6 @@
 {
   "name": "unrender",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Three.js renderer for large data set of points",
   "main": "index.js",
   "scripts": {
